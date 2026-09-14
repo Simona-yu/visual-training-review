@@ -1,0 +1,23 @@
+:root { color-scheme: light; --ink:#202124; --muted:#70757a; --line:#e5e7eb; --paper:#fff; --canvas:#f7f7f6; --soft:#f1f3f4; --green:#218739; --yellow:#b77900; --red:#c5221f; --gray:#7a8088; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--canvas); color:var(--ink); font:15px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; }
+button { font:inherit; }
+.wrap { max-width:1120px; margin:auto; padding:44px 20px 64px; }
+.site-header { margin-bottom:24px; }.eyebrow { margin:0 0 4px; color:var(--muted); font-size:11px; font-weight:700; letter-spacing:.12em; }
+h1 { margin:0; font-size:clamp(26px,4vw,34px); letter-spacing:-.04em; }.sub { margin:6px 0 0; color:var(--muted); }
+.page-nav,.day-nav { display:flex; flex-wrap:wrap; gap:8px; }.page-nav { margin-bottom:20px; }.day-nav { margin-bottom:16px; }
+.nav-button,.day-button { border:1px solid var(--line); border-radius:999px; padding:7px 12px; color:#4b4f54; background:var(--paper); cursor:pointer; }
+.nav-button.active,.day-button.active { border-color:var(--ink); background:var(--ink); color:#fff; }
+.card { margin-top:14px; padding:20px; border:1px solid var(--line); border-radius:16px; background:var(--paper); }
+.training-hero { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr); gap:22px; align-items:start; }
+.main-image,.reference-image { width:100%; display:block; border-radius:10px; border:1px solid var(--line); background:var(--soft); }.meta { margin:0 0 4px; color:var(--muted); font-size:13px; }
+h2 { margin:0 0 12px; font-size:24px; line-height:1.35; letter-spacing:-.025em; } h3 { margin:0 0 10px; font-size:16px; }
+.chips { display:flex; flex-wrap:wrap; gap:7px; margin:12px 0 16px; }.chip { display:inline-flex; align-items:center; border-radius:999px; background:var(--soft); padding:4px 9px; font-size:13px; }
+.memory { padding:13px 14px; border-left:3px solid #7c858c; background:#fafafa; border-radius:0 10px 10px 0; }.memory strong { display:block; margin-bottom:3px; }
+details { overflow:hidden; border:1px solid var(--line); border-radius:12px; } summary { padding:12px 14px; font-weight:700; cursor:pointer; }.review-list { padding:0 14px 14px; }
+.review-row { display:grid; grid-template-columns:120px 1fr; gap:12px; padding:12px 0; border-top:1px solid var(--line); }.review-label { font-weight:700; }
+.status { display:inline-block; width:9px; height:9px; margin-left:6px; border-radius:50%; vertical-align:middle; }.status-correct { background:var(--green); }.status-partial { background:var(--yellow); }.status-wrong { background:var(--red); }.status-unknown { background:var(--gray); }
+.mine { color:#555b61; }.correct { margin-top:3px; color:#111; font-weight:600; }.two-column { display:grid; grid-template-columns:1fr 1fr; gap:14px; }.plain-list { margin:0; padding-left:20px; }.plain-list li+li { margin-top:6px; }.next { color:#8b4d3d; font-weight:700; }
+.reference-card { margin-top:14px; }.reference-notes { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:14px; }.mini { padding:14px; border:1px solid var(--line); border-radius:12px; background:#fcfcfc; }
+.stat-list { display:grid; gap:10px; margin-top:14px; }.stat-item { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:var(--paper); }.term-button { border:0; padding:0; background:none; color:inherit; cursor:pointer; text-align:left; font-weight:600; }.days { color:var(--muted); font-size:13px; }.count { min-width:28px; text-align:center; border-radius:999px; padding:2px 8px; background:var(--soft); font-size:13px; }.empty,.load-error { color:var(--muted); }.load-error { margin-top:16px; color:var(--red); }
+@media (max-width:760px) { .wrap { padding:28px 14px 44px; }.training-hero,.two-column,.reference-notes { grid-template-columns:1fr; }.card { padding:16px; }.review-row { grid-template-columns:1fr; gap:4px; }.page-nav,.day-nav { gap:6px; }.nav-button,.day-button { padding:6px 10px; font-size:14px; } }

@@ -1,0 +1,97 @@
+[
+  {
+    "day": 1,
+    "date": "2026-09-08",
+    "title": "复古手绘海报",
+    "category": "画面拆解",
+    "topics": ["偏置构图", "漫射柔光", "弱空间层次", "颗粒质感"],
+    "image": "assets/day01/main.jpg",
+    "memory": "“雾蒙蒙、复古、柔和” = 低对比 + 低饱和 + 暖色泛黄 + 软边缘 + 颗粒纹理",
+    "review": [
+      {"dimension":"主体","user":"我：左上角小红花","status":"partial","correct":"→ 左上大比例红花，第一视觉焦点"},
+      {"dimension":"位置","user":"我：左上，占 1/3","status":"correct","correct":"→ 左上，占约 1/3，部分贴边裁切"},
+      {"dimension":"构图","user":"我：画面偏左","status":"partial","correct":"→ 视觉重心偏左上，偏置构图"},
+      {"dimension":"空间","user":"我：文字前景，云中景，花背景","status":"wrong","correct":"→ 文字最前层，花为主体层，云和建筑为背景"},
+      {"dimension":"光线","user":"我：柔光，无明显方向","status":"correct","correct":"→ 漫射柔光，无明显硬阴影"},
+      {"dimension":"色彩","user":"我：红色、白棕色，偏暖低饱和","status":"partial","correct":"→ 米黄 / 奶油白 / 砖红 / 橙棕，低饱和暖色系"},
+      {"dimension":"材质","user":"我：不知道","status":"unknown","correct":"→ 纸张颗粒、粗糙笔触、软边缘、粉彩/蜡笔感"},
+      {"dimension":"气质","user":"我：复古、柔和、梦幻、雾蒙蒙","status":"partial","correct":"→ 低对比 + 低饱和 + 暖色 + 背景模糊 + 颗粒"}
+    ],
+    "keyPoints": ["低对比、低饱和、暖色泛黄、软边缘与颗粒共同形成雾蒙蒙的复古柔和感", "花是主体层，文字最前层，云和建筑是背景", "漫射柔光没有明显硬阴影"],
+    "weaknesses": ["材质描述", "空间层次"],
+    "nextFocus": "材质 / 质感判断",
+    "notes": [{"title":"加强练习","items":["感觉 → 原因"]}]
+  },
+  {
+    "day": 2,
+    "date": "2026-09-xx",
+    "title": "农业科技 Banner｜色盘与配色",
+    "category": "色盘与配色",
+    "topics": ["蓝绿主色体系", "暖色点缀", "远景降饱和", "空气透视"],
+    "image": "assets/day02/main.png",
+    "memory": "整体不是“偏暖”，而是蓝绿冷色为主 + 小面积暖橙平衡。判断冷暖看大面积颜色，不看最亮局部。",
+    "review": [
+      {"dimension":"主色","user":"我：绿色","status":"partial","correct":"→ 蓝天 + 绿色农田共同构成蓝绿主色体系"},
+      {"dimension":"辅助色","user":"我：灰绿色山、天空蓝","status":"correct","correct":"→ 灰蓝、灰绿拉开远近层次并中和绿色"},
+      {"dimension":"点缀色","user":"我：夕阳橙黄色","status":"correct","correct":"→ 小面积暖橙打破大面积冷色体系"},
+      {"dimension":"明度","user":"我：整体偏亮","status":"correct","correct":"→ 高明度为主，天空/远景亮，前景略压暗"},
+      {"dimension":"饱和度","user":"我：中景明度和饱和度增高","status":"partial","correct":"→ 中景更亮，但不一定更饱和"},
+      {"dimension":"远山","user":"我：降饱和、偏灰绿色","status":"correct","correct":"→ 降饱和、降对比、偏灰蓝绿，形成空气透视"},
+      {"dimension":"冷暖","user":"我：整体偏暖","status":"wrong","correct":"→ 整体偏冷，局部暖色平衡"},
+      {"dimension":"统一鲜绿","user":"我：会没有重点","status":"correct","correct":"→ 还会层次塌陷、空间被压平、塑料感增强"}
+    ],
+    "keyPoints": ["亮 ≠ 鲜", "Exposure 太高容易发白；Shadows 太高容易发灰", "Temperature：黄 ↔ 蓝；Tint：绿 ↔ 洋红", "低饱和 ≠ 低明度"],
+    "weaknesses": ["冷暖判断", "饱和度层次"],
+    "nextFocus": "同色系里的明度 / 饱和度变化",
+    "notes": [
+      {"title":"今天只记 4 个词","items":["蓝绿主色体系：相邻冷色共同构成主色。", "暖色点缀：小面积暖色平衡大面积冷色。", "远景降饱和：越远越灰、越柔。", "空气透视：远处更灰、对比更低，体现距离。"]},
+      {"title":"明度 / 饱和度速记","items":["明度：亮不亮。转成黑白后看有多亮。", "饱和度：鲜不鲜。越像掺灰，饱和度越低。", "口诀：先问亮还是暗，再问鲜还是灰。", "提醒：低饱和 ≠ 低明度。"]}
+    ],
+    "references": [{"title":"辅助理解图｜明度、饱和度、灰度","image":"assets/day02/reference-1.png","notes":[]}]
+  },
+  {
+    "day": 3,
+    "date": "2026-09-xx",
+    "title": "构图与摄影眼｜近景 / 中景 / 远景",
+    "category": "构图与摄影眼",
+    "topics": ["前景引导", "空间纵深", "中景叙事", "远景环境"],
+    "image": "assets/day03/main.jpg",
+    "memory": "近景负责“把人带进画面”，中景负责“讲主要信息”，远景负责“交代环境和距离”。",
+    "review": [
+      {"dimension":"主体","user":"我：第一眼先看到稻田","status":"correct","correct":"→ 大面积稻田构成第一场景感知，之后才注意设备与远山"},
+      {"dimension":"近景","user":"我：虚化的苗，增强沉浸感","status":"correct","correct":"→ 虚化前景承担遮挡与引导，增强临场感和纵深"},
+      {"dimension":"中景","user":"我：稻田及设备是主要信息区","status":"correct","correct":"→ 中景承担主要叙事，展示农业环境与智能设备"},
+      {"dimension":"远景","user":"我：山和天空制造距离感","status":"correct","correct":"→ 远山和天空通过低对比、低饱和建立距离与环境尺度"},
+      {"dimension":"层次","user":"我：近中远都有内容，明度/饱和度不同","status":"correct","correct":"→ 还包括虚实、大小、清晰度、对比度共同建立空间层次"},
+      {"dimension":"取舍","user":"我：避开水和近景草","status":"partial","correct":"→ 能引导或建立层次且不抢主体，就值得保留"}
+    ],
+    "keyPoints": ["近景：引导 / 沉浸 / 纵深", "中景：主体 / 主要叙事", "远景：环境 / 距离 / 尺度", "好的前景至少服务“引导”或“层次”之一，同时不能抢主体。"],
+    "weaknesses": [],
+    "nextFocus": "前景要服务画面，不能抢主体",
+    "notes": [
+      {"title":"前景选择训练｜A / B / C","items":["你的判断 A：主体最清楚，设备信息最直接。", "你的判断 B：沉浸感最强，虚化前景增强空间层次。", "你的判断 C：前景开始抢主体，信息过杂。"]},
+      {"title":"今天只记 3 条","items":["加分前景：引导视线或建立空间层次，同时不抢主体。", "添乱前景：面积过大、对比过强、形状杂，分走注意力。", "摄影眼：先判断画面任务，再决定保留什么、删掉什么。"]}
+    ],
+    "references": [{"title":"前景选择训练｜A / B / C","image":"assets/day03/reference-1.png","notes":[]}]
+  },
+  {
+    "day": 4,
+    "date": "2026-09-xx",
+    "title": "摄影眼｜远景怎么“退”，中景才能“立”",
+    "category": "远景控制",
+    "topics": ["远景降对比", "远景降饱和", "控制细节强度", "控制情绪强度"],
+    "image": "assets/day04/main.png",
+    "memory": "远景负责交代环境和尺度，不负责抢视觉中心；远景要“退”，中景才能“立”。",
+    "review": [
+      {"dimension":"最喜欢","user":"我：A，近景农田、中景设备、远景空间范围完整","status":"correct","correct":"→ 三层职责清楚：近景建场景，中景讲科技主体，远景交代环境尺度"},
+      {"dimension":"Banner选择","user":"我：A，主题表现最清晰","status":"correct","correct":"→ 主体识别效率高，科技设备与自然环境关系明确，适合官网首屏传播"},
+      {"dimension":"C的问题","user":"我：灰蒙蒙，远景不清楚","status":"partial","correct":"→ 问题不是“不清楚”，而是灰度、云雾与暗调过重，情绪强度压过设备主题"},
+      {"dimension":"科技+自然","user":"我：A，科技主题清楚，自然环境层次丰富","status":"correct","correct":"→ 设备清楚、环境完整，科技与农业没有互相压制"},
+      {"dimension":"远景原则","user":"我：不知道","status":"unknown","correct":"→ 远景通常降低对比度、饱和度和细节强度，让它服务空间而不抢主体"}
+    ],
+    "keyPoints": ["远景对比通常低于中景，避免视觉重心后移。", "远景饱和度通常更低、更灰，让空间更自然。", "远景细节不应比主体更清晰、更抢眼。", "云雾、暗调过强时，也会反客为主。"],
+    "weaknesses": [],
+    "nextFocus": "远景“退”，中景才“立”。",
+    "notes": [{"title":"今天修正的误区","items":["误区：远景不清楚 = 不好。", "正确：远景可以柔、灰、低对比；关键是不能抢主体。", "判断法：看对比度、饱和度、细节强度、情绪强度。", "摄影眼：先看画面任务，再判断远景该保留多少存在感。"]}]
+  }
+]
